@@ -1,5 +1,5 @@
-
-
+import { createRoot } from "react-dom/client";
+import greting, { GoodEvening, GoodMoring } from './greting';
 const root = createRoot(document.getElementById("root"));
 root.render(
     <div>
